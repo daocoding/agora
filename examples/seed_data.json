@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "alex001",
+      "name": "Alex",
+      "stage": "SEED",
+      "belief_level": 35,
+      "habit_strength": 20,
+      "months_active": 1,
+      "income_tier": 0,
+      "mentorship_received": 0,
+      "bio": "Just starting out. Curious but uncertain. Heard about the community from a friend and decided to give it a try."
+    },
+    {
+      "id": "sam002",
+      "name": "Sam",
+      "stage": "GROWING",
+      "belief_level": 55,
+      "habit_strength": 45,
+      "months_active": 6,
+      "income_tier": 1,
+      "mentorship_received": 8,
+      "bio": "Six months in. Starting to see small results. Still has doubts but shows up consistently. Works with Jordan weekly."
+    },
+    {
+      "id": "jordan003",
+      "name": "Jordan",
+      "stage": "FLOURISHING",
+      "belief_level": 75,
+      "habit_strength": 70,
+      "months_active": 18,
+      "income_tier": 3,
+      "mentorship_received": 24,
+      "bio": "Eighteen months of steady growth. Mentors Sam and is starting to develop leadership skills. Morgan's guidance has been pivotal."
+    },
+    {
+      "id": "morgan004",
+      "name": "Morgan",
+      "stage": "MENTOR",
+      "belief_level": 88,
+      "habit_strength": 85,
+      "months_active": 36,
+      "income_tier": 4,
+      "mentorship_received": 42,
+      "bio": "Three years in the community. Now mentors multiple people including Jordan. Learned the craft from Casey and pays it forward."
+    },
+    {
+      "id": "casey005",
+      "name": "Casey",
+      "stage": "MASTER",
+      "belief_level": 95,
+      "habit_strength": 92,
+      "months_active": 60,
+      "income_tier": 5,
+      "mentorship_received": 60,
+      "bio": "Five years of deep practice. A master practitioner who has built and rebuilt multiple times. Mentors Morgan and shapes community culture."
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "casey005",
+      "target_id": "morgan004",
+      "rel_type": "MENTORS",
+      "strength": 90,
+      "months_active": 30
+    },
+    {
+      "source_id": "morgan004",
+      "target_id": "jordan003",
+      "rel_type": "MENTORS",
+      "strength": 80,
+      "months_active": 15
+    },
+    {
+      "source_id": "jordan003",
+      "target_id": "sam002",
+      "rel_type": "MENTORS",
+      "strength": 65,
+      "months_active": 5
+    },
+    {
+      "source_id": "sam002",
+      "target_id": "alex001",
+      "rel_type": "RECRUITED_BY",
+      "strength": 40,
+      "months_active": 1
+    },
+    {
+      "source_id": "sam002",
+      "target_id": "alex001",
+      "rel_type": "PEERS",
+      "strength": 30,
+      "months_active": 1
+    },
+    {
+      "source_id": "jordan003",
+      "target_id": "morgan004",
+      "rel_type": "INSPIRED_BY",
+      "strength": 85,
+      "months_active": 18
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agora-sim"
+version = "0.1.0"
+description = "Agent-based Growth and Opportunity Research Architecture — LLM-native simulation for personal development trajectories"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.11"
+authors = [
+    {name = "AGORA Contributors"},
+]
+dependencies = [
+    "openai>=1.0",
+    "networkx>=3.0",
+    "click>=8.0",
+    "rich>=13.0",
+    "pydantic>=2.0",
+    "reportlab>=4.0",
+]
+
+[project.scripts]
+agora = "agora.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["agora*"]
