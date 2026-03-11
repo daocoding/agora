@@ -1,0 +1,338 @@
+AGORA — Toastmasters Chapter Simulation (6 months)
+
+Loaded 12 agents, 12 relationships
+Stages: {'SEED': 2, 'GROWING': 4, 'FLOURISHING': 3, 'MENTOR': 2, 'MASTER': 1}
+
+
+— Month 1 —
+  [+] Maya Chen (SEED) b:42 h:23 | Maya delivered her Ice Breaker speech about 
+debugging code as a metaph
+  [+] Robert Okafor (SEED) b:33 h:15 | Robert delivered his Ice Breaker speech 
+about his sales career journey
+  [+] Sarah Kim (GROWING) b:58 h:50 | During her CC2 'Organize Your Speech' 
+presentation about classroom man
+  [-] James Liu (GROWING) b:34 h:25 | James gave his CC3 'Get to the Point' 
+speech about machine learning ap
+  [+] Priya Sharma (GROWING) b:72 h:63 | Priya delivers her Speech 5 'Your Body 
+Speaks' about overcoming impost
+  [+] David Torres (GROWING) b:53 h:53 | David delivers his CC4 'How To' speech 
+on organizing financial records
+  [+] Lisa Park (FLOURISHING) b:80 h:73 | Lisa delivers her first Advanced 
+Communicator Bronze speech 'The Speak
+  [+] Michael Wong (FLOURISHING) b:86 h:79 | Michael delivered his AC2 
+'Organizing Your Speech' project about scali
+  [+] Angela Martinez (FLOURISHING) b:83 h:77 | Angela delivers her Advanced 
+Communication speech 'The Day I Almost Qu
+  [+] Dr. James Osei (MENTOR) b:93 h:88 | David Torres delivered his 
+breakthrough CC#6 speech after Dr. Osei spe
+  [+] Sandra Lee (MENTOR) b:95 h:90 | Sandra successfully guides the club to 
+achieve Distinguished Club stat
+  [+] Patricia Williams (MASTER) b:99 h:95 | Patricia delivers a masterful 
+speech at the Area Contest that doesn't 
+
+— Month 2 —
+  [+] Maya Chen (SEED) b:50 h:35 | Maya delivered her CC2 'Organize Your Speech'
+about the parallels betw
+  [+] Robert Okafor (SEED) b:45 h:23 | Robert's CC2 'Organize Your Speech' 
+presentation about sales territory
+  [+] Sarah Kim (GROWING) b:70 h:58 | During her CC3 'Get to the Point' speech 
+about effective parent-teache
+  [-] James Liu (GROWING) b:26 h:20 | James missed three consecutive meetings 
+due to thesis crunch time, the
+  [+] Priya Sharma (GROWING) b:80 h:68 | Priya delivers her Speech 6 'Vocal 
+Variety' at the club contest, using
+  [+] David Torres (GROWING) b:61 h:58 | During his CC5 'Your Body Speaks' 
+speech about the language of financi
+  [+] Lisa Park (FLOURISHING) b:92 h:81 | Lisa delivers her Advanced 
+Communicator Bronze speech 'Speaking to Inf
+  [+] Michael Wong (FLOURISHING) b:94 h:84 | Michael delivers his AC3 'Get to 
+the Point' speech about pivoting busi
+  [+] Angela Martinez (FLOURISHING) b:91 h:82 | Angela delivers her Advanced 
+Communication speech 'Finding Your Voice 
+  [+] Dr. James Osei (MENTOR) b:98 h:91 | During Lisa's CC#10 'Inspire Your 
+Audience' speech about overcoming im
+  [+] Sandra Lee (MENTOR) b:98 h:92 | Sandra delivers her Advanced Communicator 
+Bronze speech 'Leading Throu
+  [+] Patricia Williams (MASTER) b:91 h:90 | Patricia realizes during her 
+Advanced Communication project 'The Roast
+
+— Month 3 —
+  [+] Maya Chen (SEED) b:62 h:43 | Maya delivers her CC3 'Get to the Point' 
+speech about technical debt i
+  [+] Robert Okafor (SEED) b:57 h:31 | Robert delivered his CC3 'Get to the 
+Point' speech about client object
+  [+] Sarah Kim (GROWING) b:82 h:66 | During her CC4 'How to Say It' speech 
+about building student confidenc
+  [+] James Liu (GROWING) b:34 h:25 | James delivers his CC5 'Your Body Speaks' 
+speech about the psychology 
+  [+] Priya Sharma (GROWING) b:92 h:76 | Priya delivers her Speech 7 'Research 
+Your Topic' about data-driven ma
+  [+] David Torres (GROWING) b:69 h:63 | David delivers his CC6 'Vocal Variety' 
+speech about finding his voice 
+  [+] Lisa Park (FLOURISHING) b:100 h:86 | Lisa delivers her Advanced 
+Communicator Bronze 'Speaking to Inform #3:
+  [+] Michael Wong (FLOURISHING) b:97 h:89 | Michael delivers his AC4 'How to 
+Say It' speech on authentic leadershi
+  [+] Angela Martinez (FLOURISHING) b:97 h:90 | Angela delivers her Advanced 
+Communication speech 'Stories That Heal' 
+  [+] Dr. James Osei (MENTOR) b:100 h:88 | During his Advanced Manual 'The 
+Professional Speaker' project on educa
+  [+] Sandra Lee (MENTOR) b:90 h:87 | Sandra realizes she's been so focused on 
+everyone else's development t
+  [+] Patricia Williams (MASTER) b:83 h:85 | Patricia steps back from her usual 
+leadership roles for three weeks to
+
+— Month 4 —
+  [+] Maya Chen (SEED) b:70 h:55 | Maya delivers her CC4 'How to Say It' speech 
+about communicating techn
+  [+] Robert Okafor (SEED) b:69 h:39 | Robert's CC4 'How to Say It' speech about
+handling difficult clients i
+  [+] Sarah Kim (GROWING) b:94 h:74 | During her CC5 'Your Body Speaks' speech 
+about non-verbal communicatio
+  [+] James Liu (GROWING) b:46 h:33 | James delivers his CC6 'Vocal Variety' 
+speech about AI ethics with suc
+  [+] Priya Sharma (GROWING) b:97 h:84 | Priya delivers her Speech 8 'Get 
+Comfortable with Visual Aids' about m
+  [+] David Torres (GROWING) b:81 h:71 | During his CC7 'Research Your Topic' 
+speech about the hidden costs of 
+  [+] Lisa Park (FLOURISHING) b:100 h:91 | Lisa delivers her Advanced 
+Communicator Bronze 'Speaking to Inform #4:
+  [+] Michael Wong (FLOURISHING) b:100 h:94 | Michael delivers his AC5 'Your 
+Body Speaks' speech about nonverbal lea
+  [+] Angela Martinez (FLOURISHING) b:100 h:95 | Angela delivers her Advanced 
+Communication speech 'The Power of Vulner
+  [+] Dr. James Osei (MENTOR) b:100 h:93 | During Lisa's area contest victory 
+speech, Dr. Osei realizes that his 
+  [+] Sandra Lee (MENTOR) b:82 h:82 | Sandra breaks down during her Advanced 
+Communicator Bronze speech 'The
+  [+] Patricia Williams (MASTER) b:90 h:82 | Patricia delivers her first-ever 
+vulnerable speech about her fear of b
+
+— Month 5 —
+  [+] Maya Chen (SEED) b:85 h:65 | Maya delivers her CC5 'Your Body Speaks' 
+speech about the body languag
+  [+] Robert Okafor (SEED) b:81 h:47 | Robert's CC5 'Your Body Speaks' speech 
+about reading client body langu
+  [+] Sarah Kim (GROWING) b:98 h:82 | During her CC6 'Vocal Variety' speech 
+about finding your voice as an e
+  [+] James Liu (GROWING) b:58 h:41 | James delivers his CC7 'Research Your 
+Topic' speech about quantum comp
+  [+] Priya Sharma (GROWING) b:100 h:92 | Priya delivers her Speech 9 'Persuade 
+with Power' about embracing care
+  [+] David Torres (GROWING) b:93 h:79 | During his CC8 'Get Comfortable with 
+Visual Aids' speech about retirem
+  [+] Lisa Park (FLOURISHING) b:100 h:96 | Lisa delivers her Advanced 
+Communicator Bronze 'Speaking to Inform #5:
+  [+] Michael Wong (FLOURISHING) b:100 h:97 | During his AC6 'Vocal Variety' 
+speech about finding your authentic voi
+  [+] Angela Martinez (FLOURISHING) b:100 h:95 | Angela delivers her Advanced 
+Communication speech 'Leadership Through 
+  [-] Dr. James Osei (MENTOR) b:92 h:88 | During David's CC#8 'Get Comfortable 
+with Visual Aids' speech about da
+  [+] Sandra Lee (MENTOR) b:90 h:87 | Sandra delivers her Advanced Communicator 
+Bronze speech 'Rebuilding Tr
+  [+] Patricia Williams (MASTER) b:95 h:85 | Patricia delivers her Advanced 
+Communication project 'Persuade With Po
+
+— Month 6 —
+  [+] Maya Chen (SEED) b:97 h:73 | Maya delivers her CC6 'Vocal Variety' speech 
+about debugging methodolo
+  [+] Robert Okafor (SEED) b:93 h:55 | Robert's CC6 'Vocal Variety' speech about
+motivating sales teams throu
+  [+] Sarah Kim (GROWING) b:100 h:90 | During her CC7 'Research Your Topic' 
+speech about the science of learn
+  [-] James Liu (GROWING) b:50 h:29 | James misses three consecutive meetings 
+due to thesis crunch time, the
+  [+] Priya Sharma (GROWING) b:100 h:95 | Priya delivers her CC Speech 10 
+'Inspire Your Audience' about finding 
+  [+] David Torres (GROWING) b:98 h:82 | During his CC9 'Persuade with Power' 
+speech advocating for financial l
+  [+] Lisa Park (FLOURISHING) b:100 h:100 | Lisa delivers her Advanced 
+Communicator Bronze 'The Persuasive Approac
+  [+] Michael Wong (FLOURISHING) b:100 h:100 | During his AC7 'Research Your 
+Topic' speech on scaling leadership in s
+  [+] Angela Martinez (FLOURISHING) b:100 h:95 | Angela delivers her 'Building 
+Bridges Through Story' speech at the Div
+  [-] Dr. James Osei (MENTOR) b:84 h:83 | During his Advanced Manual 'Speaking 
+to Inform' speech on academic int
+  [+] Sandra Lee (MENTOR) b:98 h:92 | Sandra delivers her Advanced Communicator 
+Bronze speech 'Leading Throu
+  [+] Patricia Williams (MASTER) b:98 h:80 | Patricia realizes during her 
+'Inspire Your Audience' speech about lega
+Simulating... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:07:41
+
+                                                        Toastmasters Chapter — 6
+┏━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━
+┃ Agent              ┃ Start            ┃ Month 1          ┃ Month 2          ┃ 
+┡━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━
+│ Maya Chen          │ SEED             │ SEED             │ SEED             │ 
+│                    │ b:30 h:15        │ b:42 h:23        │ b:50 h:35        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Robert Okafor      │ SEED             │ SEED             │ SEED             │ 
+│                    │ b:25 h:10        │ b:33 h:15        │ b:45 h:23        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Sarah Kim          │ GROWING          │ GROWING          │ GROWING          │ 
+│                    │ b:50 h:40        │ b:58 h:50        │ b:70 h:58        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ James Liu          │ GROWING          │ GROWING          │ GROWING          │ 
+│                    │ b:42 h:30        │ b:34 h:25        │ b:26 h:20        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Priya Sharma       │ GROWING          │ GROWING          │ GROWING          │ 
+│                    │ b:60 h:55        │ b:72 h:63        │ b:80 h:68        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ David Torres       │ GROWING          │ GROWING          │ GROWING          │ 
+│                    │ b:45 h:48        │ b:53 h:53        │ b:61 h:58        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Lisa Park          │ FLOURISHING      │ FLOURISHING      │ FLOURISHING      │ 
+│                    │ b:72 h:68        │ b:80 h:73        │ b:92 h:81        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Michael Wong       │ FLOURISHING      │ FLOURISHING      │ FLOURISHING      │ 
+│                    │ b:78 h:74        │ b:86 h:79        │ b:94 h:84        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Angela Martinez    │ FLOURISHING      │ FLOURISHING      │ FLOURISHING      │ 
+│                    │ b:75 h:72        │ b:83 h:77        │ b:91 h:82        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Dr. James Osei     │ MENTOR           │ MENTOR           │ MENTOR           │ 
+│                    │ b:88 h:85        │ b:93 h:88        │ b:98 h:91        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Sandra Lee         │ MENTOR           │ MENTOR           │ MENTOR           │ 
+│                    │ b:90 h:87        │ b:95 h:90        │ b:98 h:92        │ 
+├────────────────────┼──────────────────┼──────────────────┼──────────────────┼─
+│ Patricia Williams  │ MASTER           │ MASTER           │ MASTER           │ 
+│                    │ b:96 h:93        │ b:99 h:95        │ b:91 h:90        │ 
+└────────────────────┴──────────────────┴──────────────────┴──────────────────┴─
+
+===== MONTH 6 JOURNAL ENTRIES =====
+
+  Maya Chen: This month I finally felt like I found my voice—literally and 
+figuratively. My CC6 speech on debugging was the first time I felt completely 
+authentic on stage, using my technical background as a strength rather than 
+something to overcome. When I served as Table Topics Master for the first time, 
+asking questions about 'If you were a programming language, which would you be 
+and why?', I saw how I could bring my personality into leadership roles. The 
+standing ovation after my speech wasn't just polite encouragement anymore—it 
+felt earned, and I'm genuinely excited about my CC7 research speech on women in 
+tech.
+
+  Robert Okafor: I can't believe I'm saying this, but Toastmasters has become 
+the best investment I've made in my career. When I delivered my CC6 speech on 
+vocal variety, using different tones to demonstrate how to motivate different 
+personality types on sales teams, I felt completely in control of the room. The 
+CEO pulled me aside afterward and said my leadership presence had transformed - 
+apparently I'm getting the Regional Director role I've been wanting for three 
+years. Sandra was right to drag me to that first meeting, though I'll never 
+admit it to her face.
+
+  Sarah Kim: I can't believe how natural it felt giving my CC7 this month. When 
+I was researching cognitive load theory and growth mindset, I realized I wasn't 
+just preparing a speech—I was deepening my own understanding of why I teach the 
+way I do. Michael's evaluation hit me hard when he said I've become a 
+'speaker-educator' rather than a 'teacher who speaks.' I've been taking on more 
+roles too, serving as Grammarian twice and even volunteering to be Table Topics 
+Master next month. The shaking is completely gone now, replaced by this quiet 
+excitement every time I stand up to speak.
+
+  James Liu: This month was a reality check. My thesis defense is looming and I 
+let Toastmasters slide, missing three meetings in a row. When I finally showed 
+up for CC8, my slides crashed during the speech and I fumbled through explaining
+neural networks without my visuals. Lisa tried to be encouraging in her 
+evaluation, but I could see the disappointment. I'm starting to wonder if I can 
+really balance grad school pressures with consistent growth in public speaking.
+
+  Priya Sharma: I can't believe I'm writing this - I completed my Competent 
+Communicator today with Speech 10, and it felt like everything I've learned this
+past year crystallized into something powerful. Angela was right when she pushed
+me to dig deeper and share the story about leaving my corporate job to start 
+consulting - the vulnerability terrified me, but watching the audience lean in 
+and seeing Sarah tear up during my speech made me realize I've become the 
+speaker I never thought I could be. The standing ovation wasn't just for my 
+speech; it felt like recognition of this entire transformation. I'm already 
+planning my Advanced Communicator journey because this isn't an ending - it's 
+the beginning of who I'm becoming.
+
+  David Torres: I delivered my CC9 this month - 'Persuade with Power' - and 
+chose to speak about mandatory financial literacy in high schools. When Maria 
+challenged my statistics during Q&A, I didn't freeze or deflect like the old me 
+would have. Instead, I found myself calmly but firmly defending my research, 
+even expanding on points I hadn't covered in my speech. Dr. Osei pulled me aside
+afterward and said something that stuck: 'David, you're not just overcoming fear
+anymore - you're becoming a communicator.' Only one speech left until my CC, and
+for the first time, I'm excited rather than anxious about what comes next.
+
+  Lisa Park: This month felt like a turning point where everything I've learned 
+at Toastmasters started creating real impact beyond the club walls. My 'Convince
+with Facts' speech about diversity metrics wasn't just well-received—it's opened
+doors I never imagined, with major corporations wanting to partner with me on 
+transformational initiatives. Mentoring James through his fourth speech while 
+preparing for the district leadership keynote has shown me how far I've come, 
+and I'm starting to see myself not just as someone who got better at speaking, 
+but as someone who can genuinely influence positive change in the corporate 
+world. The ripple effects of these 19 months are becoming a tidal wave.
+
+  Michael Wong: This month felt like stepping fully into my own as a leader. 
+When my presentation crashed during AC7, I didn't panic—I just kept going, using
+the moment to demonstrate the very adaptability I was speaking about. Sandra's 
+invitation to co-facilitate shows she sees me as an equal now, not just a 
+mentee. I'm realizing that true leadership isn't about perfect execution, it's 
+about how you handle the imperfect moments with grace and authenticity.
+
+  Angela Martinez: This month felt like everything I've been building toward 
+came together beautifully. Watching Priya step up to compete in her first 
+contest - seeing her find her voice and own that stage - reminded me why I fell 
+in love with mentoring in the first place. My Division win was thrilling, but 
+honestly, the moment Priya finished her speech and looked at me with those 
+shining eyes was worth more than any trophy. I'm starting to see how my journey 
+has become less about my own growth and more about creating space for others to 
+discover their power.
+
+  Dr. James Osei: This month has been humbling in ways I didn't expect. My 
+speech on academic integrity felt more like a university lecture than a 
+Toastmasters presentation, and even Lisa's tactful evaluation couldn't hide that
+I was preaching rather than engaging. I've been so focused on being the perfect 
+mentor that I've forgotten how to be vulnerable as a speaker. The irony isn't 
+lost on me - I teach others to find their authentic voice while I'm still 
+wrestling with mine. Perhaps it's time to step back from some VP Education 
+duties and focus on my own journey again.
+
+  Sandra Lee: This month I finally understood what Patricia meant when she said 
+leadership isn't about having all the answers—it's about being brave enough to 
+admit when you don't. My speech about leading through uncertainty felt like a 
+natural extension of the vulnerability work I've been doing, and seeing how it 
+resonated with the newer members reminded me why I love this role. Michael's 
+progress continues to amaze me, and I'm starting to see how my own growth 
+journey is actually making me a better mentor to him. The club is on track for 
+Distinguished status, but more importantly, we're creating the kind of 
+environment where people feel safe to be real with each other.
+
+  Patricia Williams: This month tested my commitment to stepping back when I 
+caught that flu and missed two meetings - something the old me would have 
+powered through. Watching Sandra run those meetings flawlessly while I recovered
+reminded me that true leadership means building others who can thrive without 
+you. My 'Inspire Your Audience' speech about creating lasting impact felt 
+different this time - less about my accomplishments and more about the ripple 
+effects of empowering others. I'm learning that my legacy isn't in being 
+indispensable, but in making myself beautifully unnecessary.
+
+
+===== SIMULATION SUMMARY =====
+
+  Maya Chen: SEED | belief 30->97 (+67) | habit 15->73 (+58)
+  Robert Okafor: SEED | belief 25->93 (+68) | habit 10->55 (+45)
+  Sarah Kim: GROWING | belief 50->100 (+50) | habit 40->90 (+50)
+  James Liu: GROWING | belief 42->50 (+8) | habit 30->29 (-1)
+  Priya Sharma: GROWING | belief 60->100 (+40) | habit 55->95 (+40)
+  David Torres: GROWING | belief 45->98 (+53) | habit 48->82 (+34)
+  Lisa Park: FLOURISHING | belief 72->100 (+28) | habit 68->100 (+32)
+  Michael Wong: FLOURISHING | belief 78->100 (+22) | habit 74->100 (+26)
+  Angela Martinez: FLOURISHING | belief 75->100 (+25) | habit 72->95 (+23)
+  Dr. James Osei: MENTOR | belief 88->84 (-4) | habit 85->83 (-2)
+  Sandra Lee: MENTOR | belief 90->98 (+8) | habit 87->92 (+5)
+  Patricia Williams: MASTER | belief 96->98 (+2) | habit 93->80 (-13)
+
+  Club totals:
+    Belief: 751 -> 1118 (+367)
+    Habit:  677 -> 974 (+297)
+    Members who grew in belief: 11/12
+
+Results saved to 
+/Users/tony/Projects/agora/examples/toastmasters/results/simulation_output.json

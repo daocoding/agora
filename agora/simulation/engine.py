@@ -8,7 +8,6 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from openai import OpenAI
 from rich.console import Console
 from rich.progress import track
 
@@ -53,10 +52,13 @@ class SimulationResult:
                     belief_delta=h["belief_delta"],
                     habit_delta=h["habit_delta"],
                     new_stage=Stage(h["new_stage"]),
-                    income_tier_delta=h["income_tier_delta"],
-                    narrative=h["narrative"],
-                    mentorship_given=h["mentorship_given"],
-                    mentorship_received=h["mentorship_received"],
+                    income_tier_delta=h.get("income_tier_delta", 0),
+                    narrative=h.get("narrative", ""),
+                    key_event=h.get("key_event", ""),
+                    growth=h.get("growth", False),
+                    journal_entry=h.get("journal_entry", ""),
+                    mentorship_given=h.get("mentorship_given", 0),
+                    mentorship_received=h.get("mentorship_received", 0),
                 )
             )
         return result
@@ -71,14 +73,25 @@ class SimulationEngine:
         self._init_llm()
 
     def _init_llm(self) -> None:
-        base_url = os.environ.get("AGORA_LLM_BASE_URL")
-        api_key = os.environ.get("AGORA_LLM_API_KEY", "sk-no-key")
-        self.model = os.environ.get("AGORA_LLM_MODEL", "gpt-4o-mini")
+        self.api_type = os.environ.get("AGORA_LLM_API", "openai")
 
-        kwargs: dict[str, Any] = {"api_key": api_key}
-        if base_url:
-            kwargs["base_url"] = base_url
-        self.llm = OpenAI(**kwargs)
+        if self.api_type == "anthropic":
+            import anthropic
+
+            self.model = os.environ.get("AGORA_LLM_MODEL", "claude-sonnet-4-20250514")
+            api_key = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("CLAUDE_API_KEY")
+            self.llm = anthropic.Anthropic(api_key=api_key)
+        else:
+            from openai import OpenAI
+
+            base_url = os.environ.get("AGORA_LLM_BASE_URL")
+            api_key = os.environ.get("AGORA_LLM_API_KEY", "sk-no-key")
+            self.model = os.environ.get("AGORA_LLM_MODEL", "gpt-4o-mini")
+
+            kwargs: dict[str, Any] = {"api_key": api_key}
+            if base_url:
+                kwargs["base_url"] = base_url
+            self.llm = OpenAI(**kwargs)
 
     def run(self, num_rounds: int) -> SimulationResult:
         """Run the simulation for the given number of monthly rounds."""
@@ -91,7 +104,7 @@ class SimulationEngine:
         )
 
         for round_num in track(range(1, num_rounds + 1), description="Simulating...", console=self.console):
-            self.console.print(f"\n[bold]— Round {round_num} —[/bold]")
+            self.console.print(f"\n[bold]— Month {round_num} —[/bold]")
             for agent_id, agent in agents.items():
                 edges = self.graph.get_edges_for(agent_id)
                 outcome = agent.reason_monthly_round(
@@ -100,11 +113,16 @@ class SimulationEngine:
                     all_nodes=self.graph.nodes,
                     llm_client=self.llm,
                     model=self.model,
+                    api_type=self.api_type,
                 )
                 self.graph.update_node(agent.node)
                 result.history.append(outcome)
+                growth_icon = "+" if outcome.growth else "-"
                 self.console.print(
-                    f"  [cyan]{agent.node.name}[/cyan] ({agent.node.stage.value}): {outcome.narrative[:80]}"
+                    f"  [{growth_icon}] [cyan]{agent.node.name}[/cyan] "
+                    f"({agent.node.stage.value}) "
+                    f"b:{agent.node.belief_level} h:{agent.node.habit_strength} | "
+                    f"{outcome.key_event[:70]}"
                 )
 
         return result
