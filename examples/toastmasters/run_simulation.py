@@ -168,7 +168,7 @@ def main() -> None:
 
     # Save terminal output
     text_output = console.export_text()
-    sample_output_path = RESULTS_DIR / "sample_output.txt"
+    sample_output_path = RESULTS_DIR / "sample_output_v2.txt"
     sample_output_path.write_text(text_output)
     console.print(f"[green]Terminal output saved to {sample_output_path}[/green]")
 

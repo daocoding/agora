@@ -7,8 +7,16 @@ import os
 from dataclasses import dataclass, field
 from typing import Any
 
-from agora.graph.schema import AgentNode, Stage, RelationshipEdge, RelationType
-from agora.simulation.prompts import MONTHLY_ROUND_SYSTEM, MONTHLY_ROUND_USER
+from agora.graph.schema import AgentNode, Stage, RelationshipEdge, RelationType, DeltaLevel
+from agora.simulation.prompts import (
+    MONTHLY_ROUND_SYSTEM,
+    MONTHLY_ROUND_USER,
+    ASPIRATION_DESCRIPTIONS,
+    SPHERE_DESCRIPTIONS,
+    CATALYST_DESCRIPTIONS,
+    DELTA_DESCRIPTIONS,
+    GUIDE_ROLE_DESCRIPTIONS,
+)
 
 
 @dataclass
@@ -123,6 +131,18 @@ class DevelopmentAgent:
                     )
         return "\n".join(mentor_lines) if mentor_lines else "No formal mentorship relationship."
 
+    def _format_mentor_guide_context(self, edges: list[RelationshipEdge], nodes: dict[str, AgentNode]) -> str:
+        """Build guide role context for the agent's mentor relationship."""
+        for e in edges:
+            if e.rel_type != RelationType.MENTORS:
+                continue
+            if e.target_id == self.node.id and e.guide_role is not None:
+                mentor = nodes.get(e.source_id)
+                mentor_name = mentor.name if mentor else e.source_id
+                role_desc = GUIDE_ROLE_DESCRIPTIONS.get(e.guide_role.value, e.guide_role.value)
+                return f"- Mentor's guide role: {mentor_name} is acting as {role_desc}"
+        return ""
+
     def _format_recent_history(self, last_n: int = 3) -> str:
         if not self.history:
             return "No prior history — this is the first month."
@@ -142,6 +162,13 @@ class DevelopmentAgent:
         api_type: str = "openai",
     ) -> MonthlyOutcome:
         """Run one month of reasoning via the LLM."""
+        aspiration_val = self.node.aspiration_type.value
+        sphere_val = self.node.transformation_sphere.value
+        catalyst_val = self.node.catalyst_type.value
+        delta_val = self.node.delta_level.value
+
+        mentor_guide_ctx = self._format_mentor_guide_context(edges, all_nodes)
+
         user_prompt = MONTHLY_ROUND_USER.format(
             name=self.node.name,
             stage=self.node.stage.value,
@@ -149,6 +176,12 @@ class DevelopmentAgent:
             habit_strength=self.node.habit_strength,
             months_active=self.node.months_active,
             bio=self.node.bio,
+            aspiration_desc=ASPIRATION_DESCRIPTIONS.get(aspiration_val, aspiration_val),
+            sphere_desc=SPHERE_DESCRIPTIONS.get(sphere_val, sphere_val),
+            catalyst_desc=CATALYST_DESCRIPTIONS.get(catalyst_val, catalyst_val),
+            delta_desc=DELTA_DESCRIPTIONS.get(delta_val, delta_val),
+            follow_through_score=self.node.follow_through_score,
+            mentor_guide_context=mentor_guide_ctx,
             relationships=self._format_relationships(edges, all_nodes),
             mentor_context=self._format_mentor_context(edges, all_nodes),
             recent_history=self._format_recent_history(),
@@ -180,6 +213,14 @@ class DevelopmentAgent:
             mentorship_given=int(data.get("mentorship_given", 0)),
             mentorship_received=int(data.get("mentorship_received", 0)),
         )
+
+        # Apply delta_level_shift if the LLM indicated one
+        delta_shift = data.get("delta_level_shift")
+        if delta_shift and isinstance(delta_shift, str):
+            try:
+                self.node.delta_level = DeltaLevel(delta_shift)
+            except ValueError:
+                pass  # Ignore invalid values
 
         self._apply_outcome(outcome)
         self.history.append(outcome)
